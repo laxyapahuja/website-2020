@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+
+.root {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.profile {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.pfp {
+    border-radius: 15px;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: Inter;
+    font-size: 40px;
+    padding: 20px;
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon-container {
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.social-icon-container :hover {
+    background-color: #D5D5D5;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+a {
+    color: #000;
+}
+
+.projects-intro {
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+}
