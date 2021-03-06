@@ -7,47 +7,89 @@
     <title>Laxya Pahuja</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a954cb28bc.js" crossorigin="anonymous"></script>
+    <script src='./src/js/projects.js'></script>
     <link href="index.css" rel="stylesheet">
-    <link rel="icon" href="static/img/favicon.png">
+    <link rel="icon" href="src/img/favicon.png">
 </head>
 
 <body>
-    <header class="root">
-        <div class="profile">
-            <img src="https://github.com/laxyapahuja.png" class="pfp">
-            <h1>Laxya Pahuja</h1>
+    <header class="root funkybg">
+        <div class="profile ">
+            <img src="src/img/pfp.jpg" class="pfp">
+            <h1 class="inter black" style="padding: 20px; font-size: 40px;">Laxya Pahuja</h1>
             <div class="social-icons">
                 <a href="https://github.com/laxyapahuja" target="_blank">
                     <div class="social-icon-container ">
-                        <i class="fab fa-github "></i>
+                        <i class="fab fa-github funky"></i>
                     </div>
                 </a>
                 <a href="https://youtube.com/laxyapahuja" target="_blank">
                     <div class="social-icon-container ">
-                        <i class="fab fa-youtube "></i>
+                        <i class="fab fa-youtube funky"></i>
                     </div>
                 </a>
                 <a href="https://www.linkedin.com/in/laxyapahuja" target="_blank">
                     <div class="social-icon-container ">
-                        <i class="fab fa-linkedin "></i>
+                        <i class="fab fa-linkedin funky"></i>
                     </div>
                 </a>
                 <a href="https://behance.net/designpr0" target="_blank">
                     <div class="social-icon-container ">
-                        <i class="fab fa-behance "></i>
+                        <i class="fab fa-behance funky"></i>
                     </div>
                 </a>
                 <a href="https://instagram.com/laxyapahuja_" target="_blank">
                     <div class="social-icon-container ">
-                        <i class="fab fa-instagram "></i>
+                        <i class="fab fa-instagram funky"></i>
                     </div>
                 </a>
             </div>
         </div>
     </header>
-    <section class="projects-intro">
-
+    <section class="projects-intro funkybg">
+        <h1 class="inter black" id="projects-heading">Projects</h1>
+        <div style="width: 100%;">
+            <h1 class="inter black" style="margin-left: 80px; font-size: 40px; padding: 5px;">Art</h1>
+            <p class="helvetica black" style="margin-left: 80px; font-size: 40px; padding: 5px;">Design</p>
+            <div id="design-project-cards" style="margin-left: 80px; margin-top: 20px; display: grid; grid-row-gap: 70px; grid-template-columns: repeat(3,auto); margin-bottom: 70px;">
+            </div>
+            <p class="helvetica black" style="margin-left: 80px; font-size: 40px; padding: 5px;">Films</p>
+            <div id="film-project-cards" style="margin-left: 80px; margin-top: 20px; display: grid; grid-row-gap: 70px; grid-template-columns: repeat(3,auto); margin-bottom: 70px;">
+            </div>
+            <p class="helvetica black" style="margin-left: 80px; font-size: 40px; padding: 5px;">Music</p>
+            <div id="music-project-cards" style="margin-left: 80px; margin-top: 20px; display: grid; grid-row-gap: 70px; grid-template-columns: repeat(3,auto); margin-bottom: 70px;">
+            </div>
+            <h1 class="inter black" style="margin-left: 80px; font-size: 40px; padding: 5px;">Code</h1>
+            <p class="helvetica black" style="margin-left: 80px; font-size: 40px; padding: 5px;">Projects</p>
+            <div id="code-project-cards" style="margin-left: 80px; margin-top: 20px; display: grid; grid-row-gap: 70px; grid-template-columns: repeat(3,auto); margin-bottom: 70px;">
+            </div>
+            <p class="helvetica black" style="margin-left: 80px; font-size: 40px; padding: 5px;">Open Source</p>
+            <div id="os-project-cards" style="margin-left: 80px; margin-top: 20px; display: grid; grid-row-gap: 70px; grid-template-columns: repeat(3,auto); margin-bottom: 70px;">
+            </div>
+        </div>
+    </section>
+    <section class="projects-intro funkybg" style="padding-bottom: 70px;">
+        <h1 class="inter black" id="projects-heading">Get in touch</h1>
+        <div style="display: flex; margin-right: 300px; margin-left: 300px;">
+            <form action="https://formspree.io/f/laxya.pahuja8@gmail.com" method="POST" style="display: grid; grid-template-columns: 1fr;grid-gap: 25px; width: 500px;">
+                <label class="black">name<input type="text" name="name"></label>
+                <label class="black">email<input type="text" name="_replyto"></label>
+                <label class="black">message<textarea name="message"></textarea></label>
+                <div style="width: 100%; display: flex; align-items: center;flex-direction: column;">
+                    <button type="submit" style="margin-left: 40px;">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section>
+        <div style="display: flex; align-items: center; flex-direction: column; padding: 50px;">
+            <h1 class="inter funky" style="font-size: 30px;">This is a footer.</h1>
+            <p class="helvetica" style="text-align: center; margin-top: 30px; font-size: 20px;">Congratulations! You have made it to the end of this website. <br/>Now, I can add my links here for you again even though everything you've seen till now has been about me <br/>OR I can convince you to hire me. <br/>I will do neither and choose
+                to tell you about my favorite colors. I've heard this button's pretty cool.</p>
+            <button onclick="buttonClick()" class="funkybg" style="margin-top: 30px; width: 200px; background-color: #00FFF7; box-shadow: 0px 9px 104px -69px rgb(0 0 0 / 50%); color:white;">Button</button>
+        </div>
     </section>
 </body>
+<script src="./src/js/index.js"></script>
 
 </html>
