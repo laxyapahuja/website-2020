@@ -302,6 +302,14 @@ let code = {
             year: 2020
         },
         {
+            title: 'binterest',
+            description: 'Save all pins in your Pinterest board locally',
+            thumbnail: 'https://socialify.git.ci/laxyapahuja/binterest/image?description=1&language=1&owner=1&stargazers=1&theme=Dark',
+            media: null,
+            project: 'https://github.com/laxyapahuja/binterest',
+            year: 2021
+        },
+        {
             title: 'fontin',
             description: 'Batch fonts extractor',
             thumbnail: 'https://socialify.git.ci/laxyapahuja/font-in/image?description=1&language=1&owner=1&stargazers=1&theme=Dark',
