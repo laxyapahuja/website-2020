@@ -69,20 +69,20 @@
         <h1 class="inter black" id="projects-heading">Projects</h1>
         <div style="width: 100%;">
             <h1 class="inter black grid-header">Art</h1>
-            <p class="helvetica black grid-header">Design</p>
+            <p class="helvetica black grid-header" id="design">Design</p>
             <div id="design-project-cards" class="grid-css">
             </div>
-            <p class="helvetica black grid-header">Films</p>
+            <p class="helvetica black grid-header" id="films">Films</p>
             <div id="film-project-cards" class="grid-css">
             </div>
-            <p class="helvetica black grid-header">Music</p>
+            <p class="helvetica black grid-header" id="music">Music</p>
             <div id="music-project-cards" class="grid-css">
             </div>
             <h1 class="inter black grid-header">Code</h1>
-            <p class="helvetica black grid-header">Projects</p>
+            <p class="helvetica black grid-header" id="code-projects">Projects</p>
             <div id="code-project-cards" class="grid-css">
             </div>
-            <p class="helvetica black grid-header">Open Source</p>
+            <p class="helvetica black grid-header" id="opensource">Open Source</p>
             <div id="os-project-cards" class="grid-css">
             </div>
         </div>
@@ -90,12 +90,12 @@
     <section class="projects-intro funkybg" style="padding-bottom: 70px;">
         <h1 class="inter black" id="projects-heading">Get in touch</h1>
         <div style="display: flex; margin-right: 300px; margin-left: 300px;">
-            <form action="https://formspree.io/f/laxya.pahuja8@gmail.com" method="POST" style="display: grid; grid-template-columns: 1fr;grid-gap: 25px; width: 500px;">
+            <form action="https://formspree.io/f/laxya.pahuja8@gmail.com" method="POST" class="contact-form">
                 <label class="black">name<input type="text" name="name"></label>
                 <label class="black">email<input type="text" name="_replyto"></label>
                 <label class="black">message<textarea name="message"></textarea></label>
-                <div style="width: 100%; display: flex; align-items: center;flex-direction: column;">
-                    <button type="submit" style="margin-left: 40px;" class="custom-button">Send</button>
+                <div class="contact-send-button">
+                    <button type="submit" style="margin-left: 40px;" class='custom-button'>Send</button>
                 </div>
             </form>
         </div>
