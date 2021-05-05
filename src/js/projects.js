@@ -254,6 +254,14 @@ let code = {
             year: 2020
         },
         {
+            title: 'COVID-19 Bot',
+            description: 'Automatically replies to tweets requesting COVID related resources with links containing information about availability in India.',
+            thumbnail: 'https://socialify.git.ci/cotnw/covid19twtbot/image?description=1&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Dark',
+            media: 'https://twitter.com/covid19twtbot',
+            project: 'https://github.com/cotnw/covid19twtbot',
+            year: 2021
+        },
+        {
             title: 'StarHub',
             description: 'A chrome extension that tracks your GitHub stars so you don\'t have to.',
             thumbnail: 'https://socialify.git.ci/techsyndicate/starhub/image?description=1&descriptionEditable=A%20chrome%20extension%20that%20tracks%20your%20GitHub%20stars%20so%20you%20don%27t%20have%20to.&forks=1&language=1&owner=1&stargazers=1&theme=Dark',
