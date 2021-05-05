@@ -294,6 +294,14 @@ let code = {
             year: 2020
         },
         {
+            title: 'nyaamal',
+            description: 'A chrome extension to download anime torrents directly from MyAnimeList and Anilist.tw',
+            thumbnail: 'https://socialify.git.ci/laxyapahuja/nyaamal/image?description=1&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Dark',
+            media: 'https://github.com/laxyapahuja/nyaamal',
+            project: 'https://github.com/laxyapahuja/nyaamal',
+            year: 2021
+        },
+        {
             title: 'faid',
             description: 'An app to fade your injuries away with first-aid assistance.',
             thumbnail: 'https://socialify.git.ci/laxyapahuja/faid/image?description=1&issues=1&language=1&owner=1&stargazers=1&theme=Dark',
@@ -308,6 +316,14 @@ let code = {
             media: 'https://bhyi.tk/ballonwebsite',
             project: 'https://github.com/techsyndicate/ballon',
             year: 2020
+        },
+        {
+            title: 'binterest',
+            description: 'Save all pins in your Pinterest board locally',
+            thumbnail: 'https://socialify.git.ci/laxyapahuja/binterest/image?description=1&language=1&owner=1&stargazers=1&theme=Dark',
+            media: null,
+            project: 'https://github.com/laxyapahuja/binterest',
+            year: 2021
         },
         {
             title: 'fontin',
