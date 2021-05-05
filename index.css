@@ -5,7 +5,7 @@ p {
 .root {
     max-height: 100vh;
     width: 100%;
-    background-color: #f0f0f0;
+    background-color: #F0F0F0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ p {
 }
 
 .social-icon-container {
-    background-color: #fff;
+    background-color: #FFF;
     border-radius: 5px;
     width: 40px;
     height: 40px;
@@ -56,7 +56,7 @@ p {
 }
 
 .social-icon-container :hover {
-    background-color: #d5d5d5;
+    background-color: #D5D5D5;
     border-radius: 5px;
     width: 40px;
     height: 40px;
@@ -159,7 +159,7 @@ input {
     height: 55px;
     outline: none;
     border-radius: 15px;
-    background-color: #f5f5f5;
+    background-color: #F5F5F5;
     border: none;
     font-size: 25px;
     font-family: Helvetica;
@@ -171,7 +171,7 @@ textarea {
     height: 100px;
     outline: none;
     border-radius: 15px;
-    background-color: #f5f5f5;
+    background-color: #F5F5F5;
     border: none;
     font-size: 25px;
     font-family: Helvetica;
@@ -182,12 +182,12 @@ label {
     font-size: 20px;
 }
 
-#footer-button {
+.custom-button {
     width: 50%;
     height: 55px;
     outline: none;
     border-radius: 100px;
-    background-color: #f5f5f5;
+    background-color: #F5F5F5;
     border: none;
     font-size: 25px;
     text-align: center;
@@ -212,4 +212,158 @@ label {
 .dropbtn:hover {
     background-color: #d5d5d5;
     transition: background-color 0.5s ease;
+}
+
+.grid-header {
+    margin-left: 80px;
+    font-size: 40px;
+    padding: 5px;
+}
+
+.grid-css {
+    margin-left: 80px;
+    margin-top: 20px;
+    display: grid;
+    grid-row-gap: 70px;
+    grid-template-columns: repeat(3, auto);
+    margin-bottom: 70px;
+}
+
+.inflator-card {
+    width: 400px;
+    background-color: white;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0px 9px 104px -69px rgb(0 0 0 / 50%);
+}
+
+.inflator-image {
+    border-radius: 20px 20px 0px 0px;
+    width: 400px;
+}
+
+.inflator-div {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.inflator-h1 {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.inflator-p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.inflator-boolean {
+    font-size: 25px;
+}
+
+.inflator-link {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    margin-bottom: 25px;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+    width: 500px;
+}
+
+.contact-send-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* not iphones */
+
+@media only screen and (max-width: 1000px) {
+    .inflator-card {
+        width: 250px;
+        height: 360px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .inflator-image {
+        width: 250px;
+    }
+    .inflator-h1 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .inflator-p {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    #projects-heading {
+        font-size: 50px;
+        padding: 10px;
+        margin: 30px;
+    }
+    .root {
+        width: 100%;
+    }
+    .grid-css {
+        max-width: 60%;
+        margin: auto;
+        grid-template-columns: repeat(1, auto);
+        grid-row-gap: 10px;
+    }
+    .grid-header {
+        margin-left: 30px;
+        font-size: 40px;
+        padding: 5px;
+    }
+    .inflator-boolean {
+        font-size: 20px;
+    }
+    .contact-form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        width: 300px;
+        margin-left: -40px;
+    }
+    .contact-send-button {
+        width: 80%;
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+/* iphone X */
+
+@media only screen and (max-width: 400px) {
+    .grid-css {
+        max-width: 68%;
+    }
+}
+
+
+/* iphone 5/SE */
+
+@media only screen and (max-width: 330px) {
+    .grid-css {
+        max-width: 80%;
+    }
+    .contact-form {
+        width: 200px;
+        margin-left: -40px;
+    }
+    .contact-send-button {
+        margin-left: 10px;
+    }
 }
