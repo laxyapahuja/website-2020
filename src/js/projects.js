@@ -254,6 +254,14 @@ let code = {
             year: 2020
         },
         {
+            title: 'COVICoin',
+            description: 'Gamified platform which shows tweets in need to users who then help them and earn redeemable credits accordingly.',
+            thumbnail: 'https://socialify.git.ci/cotnw/covicoin/image?description=1&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Dark',
+            media: 'https://covicoin.herokuapp.com',
+            project: 'https://github.com/cotnw/covicoin',
+            year: 2021
+        },
+        {
             title: 'COVID-19 Bot',
             description: 'Automatically replies to tweets requesting COVID related resources with links containing information about availability in India.',
             thumbnail: 'https://socialify.git.ci/cotnw/covid19twtbot/image?description=1&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Dark',
