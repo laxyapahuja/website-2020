@@ -247,7 +247,7 @@ let art = {
 let code = {
     projects: [{
             title: 'VSCode DMs',
-            description: 'Direct Messages for Visual Studio Code.',
+            description: 'Direct Messages for Visual Studio Code. Secured 2nd prize at <a href="https://exunclan.com/">Exun 2020</a> Hackathon hosted by DPS RK Puram.',
             thumbnail: 'https://socialify.git.ci/techsyndicate/vscode-dms/image?description=1&descriptionEditable=Direct%20Messages%20for%20VSCode&forks=1&issues=1&language=1&owner=1&stargazers=1&theme=Dark',
             media: 'https://bhyi.tk/vscdms',
             project: 'https://github.com/techsyndicate/vscode-dms',
@@ -255,7 +255,7 @@ let code = {
         },
         {
             title: 'COVICoin',
-            description: 'Gamified platform which shows tweets in need to users who then help them and earn redeemable credits accordingly.',
+            description: 'Gamified platform which shows tweets in need to users who then help them and earn redeemable credits accordingly. Secured 2nd prize at <a href="https://devfolio.co/submissions/covicoin-74c9">FrostHack 2021</a> hosted by IIT Mandi.',
             thumbnail: 'https://socialify.git.ci/cotnw/covicoin/image?description=1&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Dark',
             media: 'https://covicoin.herokuapp.com',
             project: 'https://github.com/cotnw/covicoin',
@@ -279,7 +279,7 @@ let code = {
         },
         {
             title: 'eki',
-            description: 'MyAnimeList tracker for local anime files',
+            description: 'MyAnimeList tracker for local anime files.',
             thumbnail: 'https://socialify.git.ci/laxyapahuja/eki/image?description=1&language=1&owner=1&stargazers=1&theme=Dark',
             media: 'https://pypi.org/project/eki',
             project: 'https://github.com/laxyapahuja/eki',
@@ -287,7 +287,7 @@ let code = {
         },
         {
             title: 'Codimg',
-            description: 'A re-modelled approach to code plagiarism detection.',
+            description: 'A re-modelled approach to code plagiarism detection. Secured 1st Place at <a href="https://code-warriors.org/">Code Wars 2020</a> Hackathon hosted by DPS Vasant Kunj.',
             thumbnail: 'https://socialify.git.ci/techsyndicate/codimg/image?description=1&language=1&owner=1&stargazers=1&theme=Dark',
             media: 'http://codimg.herokuapp.com',
             project: 'https://github.com/techsyndicate/codimg',
@@ -295,7 +295,7 @@ let code = {
         },
         {
             title: 'Lancerate',
-            description: 'An app which brings you crowdsourced rates for freelancers.',
+            description: 'An app which brings you crowdsourced rates for freelancers. Secured 2nd Prize at <a href="https://minet.co">MINET 2020</a> Designathon hosted by The Mother\'s International.',
             thumbnail: 'https://socialify.git.ci/lancerate/lancerate/image?description=1&descriptionEditable=An%20app%20which%20brings%20you%20crowdsourced%20rates%20for%20freelancers.&language=1&owner=1&pattern=Plus&stargazers=1&theme=Dark',
             media: 'https://lancerate.herokuapp.com',
             project: 'https://github.com/lancerate/lancerate-web',
@@ -303,7 +303,7 @@ let code = {
         },
         {
             title: 'nyaamal',
-            description: 'A chrome extension to download anime torrents directly from MyAnimeList and Anilist.tw',
+            description: 'A chrome extension to download anime torrents directly from MyAnimeList and Anilist.',
             thumbnail: 'https://socialify.git.ci/laxyapahuja/nyaamal/image?description=1&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Dark',
             media: 'https://github.com/laxyapahuja/nyaamal',
             project: 'https://github.com/laxyapahuja/nyaamal',
@@ -311,7 +311,7 @@ let code = {
         },
         {
             title: 'faid',
-            description: 'An app to fade your injuries away with first-aid assistance.',
+            description: 'An app to fade your injuries away with first-aid assistance. Secured 2nd Prize at <a href="http://dynamix.co.in/">Dynamix 2019</a> Hackathon hosted by Ramjas School, RK Puram.',
             thumbnail: 'https://socialify.git.ci/laxyapahuja/faid/image?description=1&issues=1&language=1&owner=1&stargazers=1&theme=Dark',
             media: null,
             project: 'https://github.com/laxyapahuja/faid',
@@ -319,7 +319,7 @@ let code = {
         },
         {
             title: 'Ballon',
-            description: 'A webapp made for hosting elections online.',
+            description: 'A webapp made for hosting elections online. Secured 1st Prize at <a href="https://coreisus.co">CORE 2020</a> hackathon hosted by DPS Dwarka.',
             thumbnail: 'https://socialify.git.ci/techsyndicate/ballon/image?description=1&language=1&owner=1&stargazers=1&theme=Dark',
             media: 'https://bhyi.tk/ballonwebsite',
             project: 'https://github.com/techsyndicate/ballon',
