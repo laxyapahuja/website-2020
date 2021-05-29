@@ -256,7 +256,7 @@ let code = {
         {
             title: 'COVICoin',
             description: 'Gamified platform which shows tweets in need to users who then help them and earn redeemable credits accordingly. Secured 2nd prize at <a href="https://devfolio.co/submissions/covicoin-74c9">FrostHack 2021</a> hosted by IIT Mandi.',
-            thumbnail: 'https://socialify.git.ci/cotnw/covicoin/image?description=1&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Dark',
+            thumbnail: 'https://socialify.git.ci/cotnw/covicoin/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fcotnw%2Fcovicoin%2Fmain%2Fpublic%2Fassets%2Ffavicon.svg&owner=1&pulls=1&stargazers=1&theme=Dark',
             media: 'https://covicoin.herokuapp.com',
             project: 'https://github.com/cotnw/covicoin',
             year: 2021
