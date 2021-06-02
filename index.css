@@ -77,7 +77,6 @@ a {
     width: 100%;
     background-color: #e4e4e4;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -215,18 +214,21 @@ label {
 }
 
 .grid-header {
-    margin-left: 80px;
+    margin: auto;
+    width: 150vh;
     font-size: 40px;
     padding: 5px;
 }
 
 .grid-css {
-    margin-left: 80px;
+    margin: auto;
     margin-top: 20px;
     display: grid;
-    grid-row-gap: 70px;
-    grid-template-columns: repeat(3, auto);
+    grid-gap: 10vh 10vh;
+    grid-template-columns: repeat(3, 0.75fr);
     margin-bottom: 70px;
+    width: 150vh;
+    padding: 0;
 }
 
 .inflator-card {

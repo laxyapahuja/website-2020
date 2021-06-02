@@ -254,6 +254,14 @@ let code = {
             year: 2020
         },
         {
+            title: 'CoDiff',
+            description: 'CoDiff is a VSCode extension that has live access to all your teammates\' local changes, greatly improving communication: it notifies you of conflicts with teammates as they occur.',
+            thumbnail: 'https://socialify.git.ci/cotnw/codiff/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fgithub.com%2Fcotnw%2Fcodiff%2Fraw%2Fmain%2Fmedia%2Ficon.png&owner=1&pulls=1&stargazers=1&theme=Dark',
+            media: 'https://marketplace.visualstudio.com/items?itemName=bar9.codiff',
+            project: 'https://github.com/cotnw/codiff',
+            year: 2021
+        },
+        {
             title: 'COVICoin',
             description: 'Gamified platform which shows tweets in need to users who then help them and earn redeemable credits accordingly. Secured 2nd prize at <a href="https://devfolio.co/submissions/covicoin-74c9">FrostHack 2021</a> hosted by IIT Mandi.',
             thumbnail: 'https://socialify.git.ci/cotnw/covicoin/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fcotnw%2Fcovicoin%2Fmain%2Fpublic%2Fassets%2Ffavicon.svg&owner=1&pulls=1&stargazers=1&theme=Dark',
@@ -275,6 +283,14 @@ let code = {
             thumbnail: 'https://socialify.git.ci/laxyapahuja/bunken/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fgithub.com%2Flaxyapahuja%2Fbunken%2Fraw%2Fmain%2Ficon.png&owner=1&pulls=1&stargazers=1&theme=Dark',
             media: 'https://api.bunken.tk',
             project: 'https://github.com/laxyapahuja/bunken',
+            year: 2021
+        },
+        {
+            title: 'muvi',
+            description: 'A chrome extension to download movies directly from a Google search. Also made the API to go with it.',
+            thumbnail: 'https://socialify.git.ci/cotnw/muvi/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fgithub.com%2Fcotnw%2Fmuvi%2Fraw%2Fmaster%2Ficon.png&owner=1&pulls=1&stargazers=1&theme=Dark',
+            media: 'https://muvi.cotnw.tk',
+            project: 'https://github.com/cotnw/muvi',
             year: 2021
         },
         {
